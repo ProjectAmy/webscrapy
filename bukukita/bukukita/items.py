@@ -9,4 +9,16 @@ import scrapy
 class BukukitaItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+    # ini untuk spider yang linkbuku
+
+    # source = scrapy.Field()
+    # judul = scrapy.Field()
+    # penulis = scrapy.Field()
+    # penerbit = scrapy.Field()
+
+    # ini untuk yang bhinneka
+
+    nama_product = scrapy.Field()
+    harga = scrapy.Field()
+    cicilan = scrapy.Field()
